@@ -639,6 +639,389 @@ void moverC20y38(char Aje[][8], int f, int c)
          }
 }
 
+void moverC21y37(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==6 && j ==4 )  
+             {
+                Aje[6][4] = 'X';
+             } 
+	         if( i==7 && j ==4 )  
+             {
+                 Aje[7][4] = 'X';
+             }
+             if( i==7 && j ==3 )  
+             {
+                 Aje[7][3] = 'C';
+             }
+          }
+    }
+ }
+ 
+ void moverC22(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==6 && j ==3 )  
+             {
+                Aje[6][3] = 'X';
+             } 
+	         if( i==5 && j ==3 )  
+             {
+                 Aje[5][3] = 'X';
+             }
+             if( i==5 && j ==4 )  
+             {
+                 Aje[5][4] = 'C';
+             }
+          }
+    }
+ }
+     
+ void moverC23(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==4 && j ==4 )  
+             {
+                Aje[4][4] = 'X';
+             } 
+	         if( i==3 && j ==4 )  
+             {
+                 Aje[3][4] = 'X';
+             }
+             if( i==3 && j ==3 )  
+             {
+                 Aje[3][3] = 'C';
+             }
+          }
+    }
+ }
+ 
+  void moverC24(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==3 && j ==2 )  
+             {
+                Aje[3][2] = 'X';
+             } 
+	         if( i==3 && j ==1 )  
+             {
+                 Aje[3][1] = 'X';
+             }
+             if( i==4 && j ==1 )  
+             {
+                 Aje[4][1] = 'C';
+             }
+          }
+    }
+ }
+
+ void moverC25(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==4 && j ==2 )  
+             {
+                Aje[4][2] = 'X';
+             } 
+	         if( i==4 && j ==3 )  
+             {
+                 Aje[4][3] = 'X';
+             }
+             if( i==5 && j ==3 )  
+             {
+                 Aje[5][3] = 'C';
+             }
+          }
+    }
+ }
+ 
+  void moverC26(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==6 && j ==3 )  
+             {
+                Aje[6][3] = 'X';
+             } 
+	         if( i==7 && j ==3 )  
+             {
+                 Aje[7][3] = 'X';
+             }
+             if( i==7 && j ==4 )  
+             {
+                 Aje[7][4] = 'C';
+             }
+          }
+    }
+ }
+
+ void moverC27y29(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==7 && j ==5 )  
+             {
+                Aje[7][5] = 'X';
+             } 
+	         if( i==7 && j ==6 )  
+             {
+                 Aje[7][6] = 'X';
+             }
+             if( i==6 && j ==6 )  
+             {
+                 Aje[6][6] = 'C';
+             }
+          }
+    }
+ }
+
+ void moverC28y32(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==6 && j ==5 )  
+             {
+                Aje[6][5] = 'X';
+             } 
+	         if( i==6 && j ==4 )  
+             {
+                 Aje[6][4] = 'X';
+             }
+             if( i==7 && j ==4 )  
+             {
+                 Aje[7][4] = 'C';
+             }
+          }
+    }
+ }
+ 
+  void moverC30(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==5 && j ==6 )  
+             {
+                Aje[5][6] = 'X';
+             } 
+	         if( i==4 && j ==6 )  
+             {
+                 Aje[4][6] = 'X';
+             }
+             if( i==4 && j ==7 )  
+             {
+                 Aje[4][7] = 'C';
+             }
+          }
+    }
+ }
+ 
+   void moverC31(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==5 && j ==7 )  
+             {
+                Aje[5][7] = 'X';
+             } 
+	         if( i==6 && j ==7 )  
+             {
+                 Aje[6][7] = 'X';
+             }
+             if( i==6 && j ==6 )  
+             {
+                 Aje[6][6] = 'C';
+             }
+          }
+    }
+ }
+ 
+   void moverC33(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==7 && j ==3 )  
+             {
+                Aje[7][3] = 'X';
+             } 
+	         if( i==7 && j ==2 )  
+             {
+                 Aje[7][2] = 'X';
+             }
+             if( i==6 && j ==2 )  
+             {
+                 Aje[6][2] = 'C';
+             }
+          }
+    }
+ }
+ 
+   void moverC34(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==6 && j ==1 )  
+             {
+                Aje[6][1] = 'X';
+             } 
+	         if( i==6 && j ==0 )  
+             {
+                 Aje[6][0] = 'X';
+             }
+             if( i==7 && j ==0 )  
+             {
+                 Aje[7][0] = 'C';
+             }
+          }
+    }
+ }
+ 
+   void moverC35(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==6 && j ==0 )  
+             {
+                Aje[6][0] = 'X';
+             } 
+	         if( i==5 && j ==1 )  
+             {
+                 Aje[5][1] = 'X';
+             }
+             if( i==5 && j ==1 )  
+             {
+                 Aje[5][1] = 'C';
+             }
+          }
+    }
+ }
+
+  void moverC36(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==6 && j ==1 )  
+             {
+                Aje[6][1] = 'X';
+             } 
+	         if( i==7 && j ==1 )  
+             {
+                 Aje[7][1] = 'X';
+             }
+             if( i==7 && j ==2 )  
+             {
+                 Aje[7][2] = 'C';
+             }
+          }
+    }
+ }
+ 
+   void moverC39(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==4 && j ==6 )  
+             {
+                Aje[4][6] = 'X';
+             } 
+	         if( i==4 && j ==7 )  
+             {
+                 Aje[4][7] = 'X';
+             }
+             if( i==5 && j ==7 )  
+             {
+                 Aje[5][7] = 'C';
+             }
+          }
+    }
+ }
+
+  void moverC40(char Aje[][8], int f, int c)
+{
+	int i,j,k=0,r=1;
+
+	for(i=0; i<f; i++)
+	{
+		for(j=0; j<c; j++)
+		   {
+             if( i==6 && j ==7 )  
+             {
+                Aje[6][7] = 'X';
+             } 
+	         if( i==7 && j ==7 )  
+             {
+                 Aje[7][7] = 'X';
+             }
+             if( i==7 && j ==6 )  
+             {
+                 Aje[7][6] = 'C';
+             }
+          }
+    }
+ }
 
 void mostrarC(char Aje[][8], int f, int c)
 {
@@ -751,7 +1134,88 @@ int main(int argc, char *argv[])
     printf("\n");
     moverC20y38(Aje,8,8);
     mostrarC(Aje,8,8);  
-    system("pause");  
+    printf("Movimiento veintiuno ");
+    printf("\n"); 
+    moverC21y37(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento veintidos ");
+    printf("\n"); 
+    moverC22(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento veintitres ");
+    printf("\n"); 
+    moverC23(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento veinticuatro ");
+    printf("\n"); 
+    moverC24(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento veinticinco ");
+    printf("\n"); 
+    moverC25(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento veintiseis ");
+    printf("\n"); 
+    moverC26(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento veintisiete ");
+    printf("\n"); 
+    moverC27y29(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento veintiocho ");
+    printf("\n"); 
+    moverC28y32(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento veintinueve ");
+    printf("\n"); 
+    moverC27y29(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento treinta ");
+    printf("\n"); 
+    moverC30(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento treinta y uno ");
+    printf("\n"); 
+    moverC31(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento treinta y dos ");
+    printf("\n"); 
+    moverC28y32(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento treinta y tres ");
+    printf("\n"); 
+    moverC33(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento treinta y cuatro ");
+    printf("\n"); 
+    moverC34(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento treinta y cinco ");
+    printf("\n"); 
+    moverC35(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento treinta y seis ");
+    printf("\n"); 
+    moverC36(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento treinta y siete ");
+    printf("\n"); 
+    moverC21y37(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento treinta y ocho ");
+    printf("\n"); 
+    moverC20y38(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento treinta y nueve ");
+    printf("\n"); 
+    moverC39(Aje,8,8);
+    mostrarC(Aje,8,8);
+    printf("Movimiento cuarenta ");
+    printf("\n"); 
+    moverC40(Aje,8,8);
+    mostrarC(Aje,8,8);    
+      
+  
     }
   
   if(o==0)
